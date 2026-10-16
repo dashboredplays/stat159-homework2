@@ -1,10 +1,9 @@
 ---
+title: "Homework Assignment 2: Reproducing Serena Williams’s Plot"
 format:
   html:
     embed-resources: true
 ---
-
-## Homework Assignment 2: Reproducing Serena Williams’s Plot
 
 This assignment was continuing from homework 1 with the goal of reproducing a graph of Serena Williams's matches based on her age and opponent's age. Here, we take a javascript file available online, do data cleaning, and plot the graph, shown below.
 
