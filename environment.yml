@@ -1,0 +1,8 @@
+name: stat159-homework2
+channels:
+  - conda-forge
+dependencies:
+  - r-base
+  - r-ggplot2
+  - quarto
+  - make
