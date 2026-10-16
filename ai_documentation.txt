@@ -1,0 +1,5 @@
+I used Claude Opus 5.5 Medium in parts of this assignment:
+- Helping with the data_cleaning step. I have added a few notes to functions that I am less familiar with after doing a bit more research on them.
+- Helping with creating the clean function in the Makefile. Beacuse I am using Windows, the typical commands didn't work, so I now have R delete the files.
+- Final checks, like checking for typos or any missed considerations (for example forgetting to rename Project 1 to Homework 2 in a header).
+- Everything else was written by me.

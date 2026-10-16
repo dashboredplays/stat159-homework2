@@ -1,4 +1,4 @@
-# Project 1
+# Homework 2
 
 **Author: Matthew Chang**
 
@@ -13,14 +13,14 @@ This homework is an extension from homework 1 with the goal of recreating a plot
 2. Activate the conda environment:
 ```
 conda env create -f environment.yml
-conda activate hw2
+conda activate stat159-homework2
 ```
 
 3. Run the Makefile with `make all` to download data and create images and reports all at once.
 - If you want to remove them, run `make clean`.
 
 ### Contents:
-- data folder: After running make file, should output 2 files inside: `serena.csv` and `SerenaWilliamsCarrer.js`. This is the data that is used for analysis / plotting.
+- data folder: After running make file, should output 2 files inside: `serena.csv` and `SerenaWilliamsCareer.js`. This is the data that is used for analysis / plotting.
 - outputs folder: Folder that contains outputs. In this case, `serena_graph.png`, the plot.
 - scripts folder: Includes `data_cleaning.R` to clean the data and convert to csv, `download_data.R` to import the data from online into JS format, and `make_plot.R` which takes the cleaned data and graphs it out.
 - `ai_documentation.txt` includes what AI was used in the project.
@@ -32,5 +32,5 @@ conda activate hw2
 
 
 ### Notes:
-- Ensure you have quarto installed (https://quarto.org/docs/download/) and afterwards, tinytex using `quarto install tinytex`
+- Ensure you have tinytex installed by using `quarto install tinytex`
 - Ensure you have conda installed: https://anaconda.org/channels/anaconda/packages/conda/overview

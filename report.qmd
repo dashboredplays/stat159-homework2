@@ -10,3 +10,5 @@ This assignment was continuing from homework 1 with the goal of reproducing a gr
 The original plot and article from The New York Times can be found [here](https://www.nytimes.com/interactive/2022/08/28/sports/tennis/serena-age-opponents.html).
 
 ![Serena Williams Professional Matches](outputs/serena_graph.png)
+
+On the x-axis shows Williams's age, while the y-axis shows her opponent's age compared to her, which was done with taking Williams's age - Opponent's age. The colors represent a win or a loss (as shown in key on the right).

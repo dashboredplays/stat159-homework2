@@ -8,7 +8,7 @@ p <- ggplot(dat, aes(x = serena_age, y = serena_age - opp_age, color = result)) 
   scale_color_manual(
     name   = "Result",
     values = c("W" = "skyblue", "L" = "purple"),
-    labels = c("L" = "Match Williams won", "W" = "Match lost")
+    labels = c("L" = "Match lost", "W" = "Match Williams won")
   ) +
   labs(title = "Serena Williams's Professional Matches, Age 14 to 40", 
       x = "Williams's age", y = "Opponent Age Difference") +
